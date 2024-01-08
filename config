@@ -202,6 +202,11 @@ bar {
         status_command i3status
 }
 
+#window color
+#                       border  backgr. text    indicator child_border
+client.focused          #0d0d0d #303030 #ffffff #303030   #303030
+
+
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
